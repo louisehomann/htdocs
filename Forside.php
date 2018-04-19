@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 /* 
@@ -5,3 +6,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+=======
+<header> hej </header>
+<header> sut pik </header>
+
