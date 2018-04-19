@@ -1,12 +1,10 @@
-<header> hej </header>
-Hej med dig
-<?php
-
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */ ?>
-<header> hej </header>
-<header> sut pik </header>
-
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sidetitel</title>
+  <meta charset="utf-8" />
+  <meta name="description" content="Beskrivelse af side" />
+</head>
+<body>
+</body>
+</html>
