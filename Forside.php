@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Sidetitel</title>
+  <title>Regnebueslik</title>
   <meta charset="utf-8" />
   <meta name="description" content="Beskrivelse af side" />
 </head>
