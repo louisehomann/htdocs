@@ -4,6 +4,10 @@
   <title>Regnebueslik</title>
   <meta charset="utf-8" />
   <meta name="description" content="Beskrivelse af side" />
+  <?php
+    $mysqli = mysqli_connect("localhost", "root", "", "Regnbueslik");
+     
+?>
 </head>
 <body>
      <header>
