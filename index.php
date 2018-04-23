@@ -7,9 +7,8 @@
 </head>
 <body>
      <header>
-    <h1>Most important heading here</h1>
-    <h3>Less important heading here</h3>
-    <p>Some additional information here</p>
+    <h1>Regnbueslik</h1>
+  
   </header>
 </body>
 </html>
