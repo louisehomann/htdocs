@@ -8,6 +8,7 @@
 <body>
      <header>
     <h1>Regnbueslik</h1>
+<<<<<<< HEAD
   
     <div class="topnav">
   <a class="active" href="#home">Forside</a>
@@ -15,6 +16,7 @@
   <a href="#contact">Lakrids</a>
   <a href="#about">Chockolade</a>
 </div>
+
   </header>
 </body>
 </html>
