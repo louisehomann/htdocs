@@ -91,7 +91,7 @@
         
         
         <div>
-            <a> Login| </a>
+            <a class="login" href="#login.php"> Login| </a>
             <a> Min bruger| </a>
             <a> Min pose </a>
             
