@@ -7,6 +7,20 @@
  
   
   <style> 
+     .logo {
+  
+          overflow: hidden;
+          background-color: #dddddd;
+          
+     }
+          
+     .titleBar {
+          overflow: hidden;
+          background-color: #dddddd;  
+          }
+          
+     
+      
       body {
           margin: 0;
           font-family: Arial, Helvetica, sans-serif;
@@ -14,10 +28,9 @@
       
       .topnav {
           overflow: hidden;
-          background-color: #333;
-          
-      }
-      
+          background-color: #333; 
+     }
+     
      /* Tekst på navbar*/
       .topnav a {
           float: left;
@@ -28,6 +41,7 @@
           font-size: 17px;
       }
       
+           
       /*skygge på navbar*/
       .topnav a:hover {
           background-color: #ddd;
@@ -60,25 +74,41 @@
    
    
   <?php
-    $mysqli = mysqli_connect("localhost", "root", "", "Regnbueslik");
+   // $mysqli = mysqli_connect("localhost", "root", "", "Regnbueslik");
      
 ?>
 </head>
 <body>
-    
-     <header>
-   <h1>Regnbueslik</h1>
-      
-    <div class="topnav">
-  <a class="forside" href="#forside">Forside</a>
-  <a class="vingummi" href="#vingummi">Vingummi</a>
-  <a class="lakrids" href="#lakrids">Lakrids</a>
-  <a class= "chokolade" href="#chokolade">Chockolade</a>
- 
  
   
-</div>
+    <header style="border: 1px solid #ff0000;">   
+        <div class="logo" style="border: 1px solid #00ff00; height: 50px; width: 300px; top: 10px; left: 10px; position: relative;">
+            Logo
+        </div>
+        <div class="titleBar" style="border: 1px solid #0000ff; height: 50px; width: 600px;top: -42px; left: 330px; position: relative;">
+            <h2>Regnbueslik!</h2>            
+        </div>      
+        
+        
+        <div>
+            <a> Login| </a>
+            <a> Min bruger| </a>
+            <a> Min pose </a>
+            
+        </div>
+        <div class="topnav" style="border: 1px solid #000000;">
+            <a class="forside" href="#forside">Forside</a>
+            <a class="vingummi" href="#vingummi">Vingummi</a>
+            <a class="lakrids" href="#lakrids">Lakrids</a>
+            <a class= "chokolade" href="#chokolade">Chockolade</a>
+        </div>
+    </header>
+    
+    <footer>
+        ____________________________________ <br>
+        Footer <br>
 
-  </header>
+        
+    </footer>
 </body>
 </html>
