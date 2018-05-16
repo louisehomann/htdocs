@@ -104,10 +104,14 @@
         </div>
     </header>
     
+        <div style="border: 1px solid #0000ff; height: 170px; width: 200px; top: 50px; left: 30px; position: relative;"> slik produkt<div/>
+    
+        <div style="border: 1px solid #0000ff; height: 170px; width: 200px; top: -19px; left: 250px; position: relative;"> slik produkt<div/>
+    
+        <div style="border: 1px solid #0000ff; height: 170px; width: 200px; top: -19px; left: 250px; position: relative;"> slik produkt<div/>
+   
     <footer>
-        ____________________________________ <br>
-        Footer <br>
-
+       
         
     </footer>
 </body>
