@@ -9,18 +9,14 @@
   <style> 
      .logo {
   
-          overflow: hidden;
-          background-color: #dddddd;
-          
+          overflow: hidden;    
      }
           
      .titleBar {
-          overflow: hidden;
-          background-color: #dddddd;  
+          overflow: hidden; 
+          font-size: 50px;
           }
           
-     
-      
       body {
           margin: 0;
           font-family: Arial, Helvetica, sans-serif;
@@ -55,7 +51,7 @@
       }
       
       .vingummi {
-          background-color: #33dd33;
+          background-color: #ff9900;
           color: #000000;
       
       }
@@ -66,7 +62,7 @@
       }
       
       .chokolade {
-          background-color: #33dd33;
+          background-color: #3333ff;
           color: #000000;
       }
       
@@ -161,12 +157,22 @@ img {vertical-align: middle;}
 <body>
  
   
-    <header style="border: 1px solid #ff0000;">   
-        <div class="logo" style="border: 1px solid #00ff00; height: 50px; width: 300px; top: 10px; left: 10px; position: relative;">
-            <img src="regnbue.png" alt="Logo, regnbue med tekst" style="height: 50px">
+    <header>   
+        <div class="logo" style="height: 50px; width: 300px; top: 10px; left: 15px; position: relative;">
+            <img src="regnbue.png" alt="Logo, en regnbue" style="height: 50px">
         </div>
-        <div class="titleBar" style="border: 1px solid #0000ff; height: 50px; width: 600px;top: -42px; left: 330px; position: relative;">
-            <h2>Regnbueslik!</h2>            
+        <div class="titleBar" style="height: 50px; width: 600px;top: -40px; left: 150px; position: relative;">
+            <span style='color:#FF0000;'>R</span>
+            <span style='color:#FF8B00;'>E</span>
+            <span style='color:#E7FF00;'>G</span>
+            <span style='color:#5CFF00;'>N</span>
+            <span style='color:#00FF2E;'>B</span>
+            <span style='color:#00FFB9;'>U</span>
+            <span style='color:#00B9FF;'>E</span>
+            <span style='color:#002EFF;'>S</span>
+            <span style='color:#5C00FF;'>L</span>
+            <span style='color:#E700FF;'>I</span>
+            <span style='color:#FF008B;'>K</span>           
         </div>      
         
         
@@ -176,7 +182,7 @@ img {vertical-align: middle;}
             <a href="Kurv.php">  Min pose <img src="pose.png" style="height: 50px;"> </a>
             
         </div>
-        <div class="topnav" style="border: 1px solid #000000;">
+        <div class="topnav">
             <a class="forside" href="forside">Forside</a>
             <a class="vingummi" href="vingummi">Vingummi</a>
             <a class="lakrids" href="lakrids">Lakrids</a>
