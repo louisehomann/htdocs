@@ -4,7 +4,7 @@
   <title>Regnebueslik</title>
   <meta charset="utf-8" />
   <meta name="description" content="Beskrivelse af side" />
- 
+  <link rel="shortcut icon" type="image/png" href="favicon.png" style="height: 5px;">
   
   <style> 
      .logo {
@@ -161,7 +161,7 @@ img {vertical-align: middle;}
         <div class="logo" style="height: 50px; width: 300px; top: 10px; left: 15px; position: relative;">
             <img src="regnbue.png" alt="Logo, en regnbue" style="height: 50px">
         </div>
-        <div class="titleBar" style="height: 50px; width: 600px;top: -40px; left: 150px; position: relative;">
+        <div class="titleBar" style="height: 60px; width: 600px;top: -40px; left: 150px; position: relative;">
             <span style='color:#FF0000;'>R</span>
             <span style='color:#FF8B00;'>E</span>
             <span style='color:#E7FF00;'>G</span>
