@@ -1,4 +1,4 @@
-                 <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
   <title>Regnebueslik</title>
@@ -140,6 +140,16 @@ img {vertical-align: middle;}
   .text {font-size: 11px}
 }
     
+/* Footer*/
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
    </style>   
    
    
@@ -153,7 +163,7 @@ img {vertical-align: middle;}
   
     <header style="border: 1px solid #ff0000;">   
         <div class="logo" style="border: 1px solid #00ff00; height: 50px; width: 300px; top: 10px; left: 10px; position: relative;">
-            <img src="logo.png" alt="Logo, regnbue med tekst" width="100">
+            <img src="regnbue.png" alt="Logo, regnbue med tekst" style="height: 50px">
         </div>
         <div class="titleBar" style="border: 1px solid #0000ff; height: 50px; width: 600px;top: -42px; left: 330px; position: relative;">
             <h2>Regnbueslik!</h2>            
@@ -163,14 +173,14 @@ img {vertical-align: middle;}
         <div>
             <a class="login" href="login.php"> Login| </a>
             <a> Min bruger| </a>
-            <a> Min pose </a>
+            <a href="Kurv.php">  Min pose <img src="pose.png" style="height: 50px;"> </a>
             
         </div>
         <div class="topnav" style="border: 1px solid #000000;">
-            <a class="forside" href="#forside">Forside</a>
-            <a class="vingummi" href="#vingummi">Vingummi</a>
-            <a class="lakrids" href="#lakrids">Lakrids</a>
-            <a class= "chokolade" href="#chokolade">Chockolade</a>
+            <a class="forside" href="forside">Forside</a>
+            <a class="vingummi" href="vingummi">Vingummi</a>
+            <a class="lakrids" href="lakrids">Lakrids</a>
+            <a class= "chokolade" href="chokolade">Chockolade</a>
         </div>
     </header>
     
@@ -179,19 +189,19 @@ img {vertical-align: middle;}
 
 <div class="mySlides fade" >
   <div class="numbertext">1 / 3</div>
-  <img src="lakridsblomster.jpg" style="width:250px">
+  <img src="lakridsblomster.jpg" style="height: 270px;">
   <div class="text">Caption Text</div>
 </div>
 
 <div class="mySlides fade" >
   <div class="numbertext">2 / 3</div>
-  <img src="lakridspbie.jpg" style="width:250px">
+  <img src="lakridspbie.jpg" style="height: 270px; ">
   <div class="text">Caption Two</div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">3 / 3</div>
-  <img src="lakridssutter.jpg" style="width:250px">
+  <img src="lakridssutter.jpg" style="height: 270px;">
   <div class="text">Caption Three</div>
 </div>
 
@@ -228,34 +238,41 @@ function showSlides() {
 
 
 <br>
-    
-        <div style="border: 5px solid #0000ff; height: 170px; width: 200px; top: 460px; left: 300px; position: absolute;">
+<div style="border: 5px solid #0000ff; height: 900px; top: 460px; "  </div>
+
+<br> </br>
+
+ 
+        <div style="border: 5px solid #0000ff; height: 170px; width: 200px; top: 600px; left: 300px; position: absolute;">
             Lakridskabler
             <br> 
             <p style= "position:absolute; top: 10px; left:50px" </p> <img src="saltlakrids.png" alt="saltlakrids" width="100" > 
         </div>
     
-        <div style="border: 5px solid #0000ff; height: 170px; width: 200px; top: 460px; left: 600px; position: absolute;">
+        <div style="border: 5px solid #0000ff; height: 170px; width: 200px; top: 600px; left: 600px; position: absolute;">
             Lakridsblomster
             <img src="lakridsblomster.jpg" alt="lakridsblomster" width="100">
         </div>
     
-        <div style="border: 5px solid #0000ff; height: 170px; width: 200px; top: 460px; left: 900px; position: absolute;"> slik produkt</div>
+        <div style="border: 5px solid #0000ff; height: 170px; width: 200px; top: 600px; left: 900px; position: absolute;"> slik produkt</div>
             
-        <div style="border: 5px solid #0000ff; height: 170px; width: 200px; top: 460px; left: 1200px; position: absolute;"> slik produkt</div>
+        <div style="border: 5px solid #0000ff; height: 170px; width: 200px; top: 600px; left: 1200px; position: absolute;"> slik produkt</div>
              
              <br> <br/>
              
-        <div style="border: 5px solid #0000ff; height: 170px; width: 200px; top: 690px; left: 300px; position: absolute;"> slik produkt</div>
+        <div style="border: 5px solid #0000ff; height: 170px; width: 200px; top: 900px; left: 300px; position: absolute;"> slik produkt</div>
     
-        <div style="border: 5px solid #0000ff; height: 170px; width: 200px; top: 690px; left: 600px; position: absolute;"> slik produkt</div>
+        <div style="border: 5px solid #0000ff; height: 170px; width: 200px; top: 900px; left: 600px; position: absolute;"> slik produkt</div>
     
-        <div style="border: 5px solid #0000ff; height: 170px; width: 200px; top: 690px; left: 900px; position: absolute;"> slik produkt</div>
+        <div style="border: 5px solid #0000ff; height: 170px; width: 200px; top: 900px; left: 900px; position: absolute;"> slik produkt</div>
             
-        <div style="border: 5px solid #0000ff; height: 170px; width: 200px; top: 690px; left: 1200px; position: absolute;"> slik produkt</div>
-   
+        <div style="border: 5px solid #0000ff; height: 170px; width: 200px; top: 900px; left: 1200px; position: absolute;"> slik produkt</div>
+        
+
     <footer>
-       
+       <div class="footer">
+  <p>Footer</p>
+</div>
         
     </footer>
 </body>
