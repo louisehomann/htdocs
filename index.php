@@ -168,13 +168,13 @@ img {vertical-align: middle;}
                      
      
         
-<<<<<<< HEAD
+
         <div style=" height: 60px; width: 300px; left:1280px; top: -20px; position:relative; border: 1px solid #0000ff;">
             <a class="login" href="cart.php"> Login| </a>
-=======
+
         <div style=" height: 60px; width: 300px; left:80%; top: -20px; position:relative; border: 1px solid #0000ff;">
             <a class="login" href="login.php"> Login| </a>
->>>>>>> 546cc57fed8a9642f3cd9a4009843580806501b7
+
             <a> Min bruger| </a>
             <a href="Kurv.php">  Min pose <img src="pose.png" style="height: 50px;"> </a>
             
