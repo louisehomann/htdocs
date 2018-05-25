@@ -7,7 +7,7 @@ $username = $password = "";
 $username_err = $password_err = "";
  
 // Processing form data when form is submitted
-if($_SERVER["REQUEST_METHOD"] === "POST"){
+if($_SERVER["REQUEST_METHOD"] == "POST"){
  
     // Check if username is empty
     if(empty(trim($_POST["username"]))){
@@ -26,9 +26,9 @@ if($_SERVER["REQUEST_METHOD"] === "POST"){
     // Validate credentials
     if(empty($username_err) && empty($password_err)){
         // Prepare a select statement
-        $sql = "SELECT username, password FROM users WHERE username = ?";
+        $sql = "SELECT username, password FROM persons WHERE username = ?";
         
-        if($stmt === mysqli_prepare($link, $sql)){
+        if($stmt = mysqli_prepare($link, $sql)){
             // Bind variables to the prepared statement as parameters
             mysqli_stmt_bind_param($stmt, "s", $param_username);
             
