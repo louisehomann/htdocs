@@ -27,7 +27,12 @@
           padding: 14px 16px;
           text-decoration: none;
           font-size: 17px;
+<<<<<<< HEAD
        
+=======
+          top: 50px
+
+>>>>>>> 21d1188e73fdf0991c4a2746cf0a1368743ca5f5
       }
       
            
@@ -149,8 +154,11 @@ img {vertical-align: middle;}
 </head>
 <body>
  
+<<<<<<< HEAD
   
 
+=======
+>>>>>>> 21d1188e73fdf0991c4a2746cf0a1368743ca5f5
     <header>   
         <div class="logo" style="height: 50px; width: 300px; top: 10px; left: 15px; position: relative;">
             <img src="regnbue.png" alt="Logo, en regnbue" style="height: 50px">
@@ -170,6 +178,10 @@ img {vertical-align: middle;}
         </div>      
         
         
+<<<<<<< HEAD
+=======
+
+>>>>>>> 21d1188e73fdf0991c4a2746cf0a1368743ca5f5
 
         <div style=" height: 60px; width: 300px; left:1280px; top: -20px; position:relative; border: 1px solid #0000ff;">
             <a class="login" href="cart.php"> Login| </a>
@@ -181,15 +193,27 @@ img {vertical-align: middle;}
 
         <div style=" height: 60px; width: 300px; left:1280px; top: -20px; position:relative; border: 1px solid #0000ff;">
 
+<<<<<<< HEAD
 
         <div>
 
 
+=======
+        <div>
+
+>>>>>>> 21d1188e73fdf0991c4a2746cf0a1368743ca5f5
     <header>             
+
+            <div class="titleBar" style="border: red solid 1px; width: 300px; top: 20px; position: relative; height: 60px; left: 5px;">
+                <img src="regnbue.png" alt="Logo, en regnbue" style="height: 50px;">
+            </div>
+        <div style="position: relative; border: #00B9FF 1px solid; width: 500px; left: 150px; top: -40px; height: 60px;">
+
             <div class="titleBar" style="border: red solid 1px; width: 100px; top: 20px; position: relative; height: 60px; left: 5px;">
                 <img src="regnbue.png" alt="Logo, en regnbue" style="height: 50px;">
             </div>
         <div style="position: relative; border: #00B9FF 1px solid; width: 500px; left: 120px; top: -40px; height: 60px;">
+
        <span style="color:#FF0000; font-size: 50px;">R</span>
             <span style="color:#FF8B00; font-size: 50px;">E</span>
             <span style="color:#E7FF00; font-size: 50px;">G</span>
@@ -201,17 +225,27 @@ img {vertical-align: middle;}
             <span style="color:#5C00FF; font-size: 50px;">L</span>
             <span style="color:#E700FF; font-size: 50px;">I</span>
             <span style="color:#FF008B; font-size: 50px;">K</span>  
-            </div>
+        </div>
                      
-     
-        
+             
         <div style=" height: 60px; width: 300px; left:1280px; top: -20px; position:relative; border: 1px solid #0000ff;">
+<<<<<<< HEAD
 
             <a class="login" href="login.php"> Login| </a>
+=======
+>>>>>>> 21d1188e73fdf0991c4a2746cf0a1368743ca5f5
 
+
+
+        <div style=" height: 60px; width: 300px; left:1280px; top: -20px; position:relative; border: 1px solid #0000ff;">
+
+            <a class="login" href="cart.php"> Login| </a>
+
+        <div style=" height: 60px; width: 300px; left:80%; top: -20px; position:relative; border: 1px solid #0000ff;">
+            <a class="login" href="login.php"> Login| </a>
             <a> Min bruger| </a>
             <a href="Kurv.php">  Min pose <img src="pose.png" style="height: 50px;"> </a>
-            
+          
         </div>
         <div class="topnav">
             <a class="forside" href="forside">Forside</a>
@@ -219,9 +253,12 @@ img {vertical-align: middle;}
             <a class="lakrids" href="lakrids">Lakrids</a>
             <a class= "chokolade" href="chokolade">Chockolade</a>
 
+<<<<<<< HEAD
             
      
 
+=======
+>>>>>>> 21d1188e73fdf0991c4a2746cf0a1368743ca5f5
         </div>
     </header>
     
