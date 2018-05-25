@@ -44,8 +44,7 @@ if(isset($_GET["action"]))
 			if($values["item_id"] == $_GET["id"])
 			{
 				unset($_SESSION["shopping_cart"][$keys]);
-				echo '<script>alert("Item Removed")</script>';
-				echo '<script>window.location="cart.php"</script>';
+				
 			}
 		}
 	}
@@ -55,10 +54,10 @@ if(isset($_GET["action"]))
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Webslesson Demo | Simple PHP Mysql Shopping Cart</title>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+		<title>Bestillings sidem/Din Pose</title>
+		
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		
 	</head>
 	<body>
 		<br />
@@ -66,7 +65,7 @@ if(isset($_GET["action"]))
 			<br />
 			<br />
 			<br />
-			<h3 align="center">Tutorial - <a href="http://www.webslesson.info/2016/08/simple-php-mysql-shopping-cart.html" title="Simple PHP Mysql Shopping Cart">Simple PHP Mysql Shopping Cart</a></h3><br />
+			<h3 align="center"><a  title="Bestillings side/Din pose">Bestillings side/Din pose</a></h3><br />
 			<br /><br />
 			<?php
 				$query = "SELECT * FROM tbl_product ORDER BY id ASC";
@@ -147,16 +146,4 @@ if(isset($_GET["action"]))
 	</body>
 </html>
 
-<?php
-//If you have use Older PHP Version, Please Uncomment this function for removing error 
 
-/*function array_column($array, $column_name)
-{
-	$output = array();
-	foreach($array as $keys => $values)
-	{
-		$output[] = $values[$column_name];
-	}
-	return $output;
-}*/
-?>
