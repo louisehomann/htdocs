@@ -169,7 +169,7 @@ img {vertical-align: middle;}
      
         
 <<<<<<< HEAD
-        <div style=" height: 60px; width: 300px; left:1280px; top: -20px; position:relative; border: 1px solid #0000ff;">
+        <div style=" height: 60px; width: 300px; left:80%; top: -20px; position:relative; border: 1px solid #0000ff;">
             <a class="login" href="cart.php"> Login| </a>
 =======
         <div style=" height: 60px; width: 300px; left:80%; top: -20px; position:relative; border: 1px solid #0000ff;">
