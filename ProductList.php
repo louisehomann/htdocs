@@ -15,9 +15,40 @@ if (mysqli_query($mysqli, $sql))
 
 
 $sql = "INSERT INTO `tbl_product` (`id`, `name`, `image`, `price`) VALUES
-(1, 'Samsung J2 Pro', '1.jpg', 100.00),
-(2, 'HP Notebook', '2.jpg', 299.00),
-(3, 'Panasonic T44 Lite', '3.jpg', 125.00)";
+(1, 'Lakridspipe', '1.jpg', 100.00),
+(2, 'Lakridsblomster', '2.jpg', 299.00),
+(3, 'Lakridssutter', '3.jpg', 125.00)
+(4, 'Lakridshjul', '1.jpg', 100.00)
+(5, 'Lakridssmiley', '1.jpg', 100.00)
+(6, 'Saltlakrids', '1.jpg', 100.00)
+(7, 'Samsung J2 Pro', '1.jpg', 100.00)
+(8, 'Samsung J2 Pro', '1.jpg', 100.00)
+(9, 'Samsung J2 Pro', '1.jpg', 100.00)
+(10, 'Samsung J2 Pro', '1.jpg', 100.00)
+(11, 'Samsung J2 Pro', '1.jpg', 100.00)
+(12, 'Samsung J2 Pro', '1.jpg', 100.00)
+(13, 'Samsung J2 Pro', '1.jpg', 100.00)
+(14, 'Samsung J2 Pro', '1.jpg', 100.00)
+(15, 'Samsung J2 Pro', '1.jpg', 100.00)
+(16, 'Samsung J2 Pro', '1.jpg', 100.00)
+(17, 'Samsung J2 Pro', '1.jpg', 100.00)
+(18, 'Samsung J2 Pro', '1.jpg', 100.00)
+(19, 'Samsung J2 Pro', '1.jpg', 100.00)
+(20, 'Samsung J2 Pro', '1.jpg', 100.00)
+(21, 'Samsung J2 Pro', '1.jpg', 100.00)
+(22, 'Samsung J2 Pro', '1.jpg', 100.00)
+(23, 'Samsung J2 Pro', '1.jpg', 100.00)
+(24, 'Samsung J2 Pro', '1.jpg', 100.00)
+(25, 'Samsung J2 Pro', '1.jpg', 100.00)
+(26, 'Samsung J2 Pro', '1.jpg', 100.00)
+(27, 'Samsung J2 Pro', '1.jpg', 100.00)
+(28, 'Samsung J2 Pro', '1.jpg', 100.00)
+(29, 'Samsung J2 Pro', '1.jpg', 100.00)
+(30, 'Samsung J2 Pro', '1.jpg', 100.00)";
+        
+        
+        
+        
 if (mysqli_query($mysqli, $sql))
        echo "Created table<br>";
    else

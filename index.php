@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,6 +8,7 @@
   <meta charset="utf-8" />
   <meta name="description" content="Beskrivelse af side" />
   <link rel="shortcut icon" type="image/png" href="favicon.png" style="height: 5px;">
+  
   
   <style> 
    
@@ -141,10 +145,7 @@ img {vertical-align: middle;}
    </style>   
    
    
-  <?php
-   // $mysqli = mysqli_connect("localhost", "root", "", "Regnbueslik");
-     
-?>
+ 
 
 <body>
  
@@ -169,8 +170,8 @@ img {vertical-align: middle;}
 
         <div style=" height: 60px; width: 300px; left:1280px; top: -20px; position:relative; border: 1px solid #0000ff;">
             <a class="login" href="login.php"> Login| </a>
-            <a> Min bruger| </a>
-            <a href="Kurv.php">  Min pose <img src="pose.png" style="height: 50px;"> </a>
+            <a> <?php echo($_SESSION['username']);?> </a>
+            <a href="cart.php">  Min pose <img src="pose.png" style="height: 50px;"> </a>
           
         </div>
         <div class="topnav">
