@@ -76,7 +76,7 @@ img {vertical-align: middle;}
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
+  color: black;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
@@ -192,19 +192,19 @@ img {vertical-align: middle;}
 <div class="mySlides fade" >
   <div class="numbertext">1 / 3</div>
   <img src="lakridsblomster.jpg" style="height: 270px;">
-  <div class="text">Caption Text</div>
+  <div class="text">Lakridsblomster</div>
 </div>
 
 <div class="mySlides fade" >
   <div class="numbertext">2 / 3</div>
   <img src="lakridspbie.jpg" style="height: 270px; ">
-  <div class="text">Caption Two</div>
+  <div class="text">Lakridspiber</div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">3 / 3</div>
   <img src="lakridssutter.jpg" style="height: 270px;">
-  <div class="text">Caption Three</div>
+  <div class="text">Lakridssutter</div>
 </div>
 
 </div>
