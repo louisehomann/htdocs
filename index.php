@@ -6,17 +6,8 @@
   <meta name="description" content="Beskrivelse af side" />
   <link rel="shortcut icon" type="image/png" href="favicon.png" style="height: 5px;">
   
-  <style> 
-     .logo {
-  
-          overflow: hidden;    
-     }
-          
-     .titleBar {
-          overflow: hidden; 
-          font-size: 50px;
-          }
-          
+  <style>
+      
       body {
           margin: 0;
           font-family: Arial, Helvetica, sans-serif;
@@ -35,6 +26,7 @@
           padding: 14px 16px;
           text-decoration: none;
           font-size: 17px;
+          top: 50px;
       }
       
            
@@ -157,26 +149,27 @@ img {vertical-align: middle;}
 <body>
  
   
-    <header>   
-        <div class="logo" style="height: 50px; width: 300px; top: 10px; left: 15px; position: relative;">
-            <img src="regnbue.png" alt="Logo, en regnbue" style="height: 50px">
-        </div>
-        <div class="titleBar" style="height: 60px; width: 600px;top: -40px; left: 150px; position: relative;">
-            <span style='color:#FF0000;'>R</span>
-            <span style='color:#FF8B00;'>E</span>
-            <span style='color:#E7FF00;'>G</span>
-            <span style='color:#5CFF00;'>N</span>
-            <span style='color:#00FF2E;'>B</span>
-            <span style='color:#00FFB9;'>U</span>
-            <span style='color:#00B9FF;'>E</span>
-            <span style='color:#002EFF;'>S</span>
-            <span style='color:#5C00FF;'>L</span>
-            <span style='color:#E700FF;'>I</span>
-            <span style='color:#FF008B;'>K</span>           
-        </div>      
+    <header>             
+            <div class="titleBar" style="border: red solid 1px; width: 100px; top: 20px; position: relative; height: 60px; left: 5px;">
+                <img src="regnbue.png" alt="Logo, en regnbue" style="height: 50px;">
+            </div>
+        <div style="position: relative; border: #00B9FF 1px solid; width: 500px; left: 120px; top: -40px; height: 60px;">
+       <span style="color:#FF0000; font-size: 50px;">R</span>
+            <span style="color:#FF8B00; font-size: 50px;">E</span>
+            <span style="color:#E7FF00; font-size: 50px;">G</span>
+            <span style="color:#5CFF00; font-size: 50px;">N</span>
+            <span style="color:#00FF2E; font-size: 50px;">B</span>
+            <span style="color:#00FFB9; font-size: 50px;">U</span>
+            <span style="color:#00B9FF; font-size: 50px;">E</span>
+            <span style="color:#002EFF; font-size: 50px;">S</span>
+            <span style="color:#5C00FF; font-size: 50px;">L</span>
+            <span style="color:#E700FF; font-size: 50px;">I</span>
+            <span style="color:#FF008B; font-size: 50px;">K</span>  
+            </div>
+                     
+     
         
-        
-        <div>
+        <div style=" height: 60px; width: 300px; left:1280px; top: -20px; position:relative; border: 1px solid #0000ff;">
             <a class="login" href="login.php"> Login| </a>
             <a> Min bruger| </a>
             <a href="Kurv.php">  Min pose <img src="pose.png" style="height: 50px;"> </a>
@@ -187,6 +180,8 @@ img {vertical-align: middle;}
             <a class="vingummi" href="vingummi">Vingummi</a>
             <a class="lakrids" href="lakrids">Lakrids</a>
             <a class= "chokolade" href="chokolade">Chockolade</a>
+            
+     
         </div>
     </header>
     
