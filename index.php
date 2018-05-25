@@ -169,7 +169,7 @@ img {vertical-align: middle;}
         
 
         <div style=" height: 60px; width: 300px; left:1280px; top: -20px; position:relative; border: 1px solid #0000ff;">
-            <a class="login" href="Productlist.php"> Login| </a>
+            <a class="login" href="login.php"> Login| </a>
             <a href="Welcome.php"> <?php if ($_SESSION) { echo($_SESSION["username"]);
             }else{
                 echo "min bruger";
