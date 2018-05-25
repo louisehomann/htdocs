@@ -161,7 +161,7 @@ img {vertical-align: middle;}
  
     <header>   
         <div class="logo" style="height: 50px; width: 300px; top: 10px; left: 15px; position: relative;">
-            <img src="regnbue.png" alt="Logo, en regnbue" style="height: 50px">
+            <img src="regnbue.png" alt="Logo, en regnbue" style="height: 50px; <a href="index.php> index </a> >
         </div>
         <div class="titleBar" style="height: 60px; width: 600px;top: -40px; left: 150px; position: relative;">
             <span style= "color:#FF0000; font-size:50px;">R</span>
