@@ -76,13 +76,14 @@ img {vertical-align: middle;}
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
+  color: black;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
   width: 100px;
   text-align: center;
+  font-family: sans-serif;
 }
 
 /* Number text (1/3 etc) */
@@ -130,6 +131,22 @@ img {vertical-align: middle;}
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
+  
+}
+
+.ramme {
+    border: 2px solid red;
+    border-radius: 8px;
+    border: 10px outset grey;
+    text-align: center;
+    
+}
+.kasser {
+    border: 2px solid red;
+    border-radius: 8px;
+    border: 10px outset orangered;
+    text-align: center;
+    
 }
     
 /* Footer*/
@@ -191,20 +208,20 @@ img {vertical-align: middle;}
 
 <div class="mySlides fade" >
   <div class="numbertext">1 / 3</div>
-  <img src="lakridsblomster.jpg" style="height: 270px;">
-  <div class="text">Caption Text</div>
+  <img src="vingummijordbær.png" style="height: 270px;">
+  <div class="text">Jordbær</div>
 </div>
 
 <div class="mySlides fade" >
   <div class="numbertext">2 / 3</div>
   <img src="lakridspbie.jpg" style="height: 270px; ">
-  <div class="text">Caption Two</div>
+  <div class="text">Lakridspiber</div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">3 / 3</div>
-  <img src="lakridssutter.jpg" style="height: 270px;">
-  <div class="text">Caption Three</div>
+  <img src="chokorice.png" style="height: 270px;">
+  <div class="text">Chokorice</div>
 </div>
 
 </div>
@@ -240,35 +257,52 @@ function showSlides() {
 
 
 <br>
-<div style="border: 5px solid #0000ff; height: 900px; top: 460px; "  </div>
+<div class="ramme" style="height: 900px; top: 460px; "> Nyheder </div>
 
-<br> </br>
 
  
-        <div style="border: 5px solid #0000ff; height: 170px; width: 200px; top: 600px; left: 300px; position: absolute;">
-            Lakridskabler
-            <br> 
-            <p style= "position:absolute; top: 10px; left:50px" </p> <img src="saltlakrids.png" alt="saltlakrids" width="100" > 
+        <div class="kasser" style=" height: 170px; width: 200px; top: 600px; left: 300px; position: absolute;">
+            <p style=""> Lakridskabler </p>
+         
+             <img src="saltlakrids.png" alt="saltlakrids" height="90" > 
         </div>
     
-        <div style="border: 5px solid #0000ff; height: 170px; width: 200px; top: 600px; left: 600px; position: absolute;">
-            Lakridsblomster
-            <img src="lakridsblomster.jpg" alt="lakridsblomster" width="100">
+        <div class="kasser" style="height: 170px; width: 200px; top: 600px; left: 600px; position: absolute;">
+          <p style=""> Chokoladesvampe </p>
+          <img src="chokoladesvampe.jpg" alt="Chokoladesvampe" height="90">
         </div>
     
-        <div style="border: 5px solid #0000ff; height: 170px; width: 200px; top: 600px; left: 900px; position: absolute;"> slik produkt</div>
+        <div class="kasser" style="height: 170px; width: 200px; top: 600px; left: 900px; position: absolute;">
+            <p style=""> Surelarver </p>
+            <img src="surelarver.png" alt="Sure Larver" height="90">
+        </div>
             
-        <div style="border: 5px solid #0000ff; height: 170px; width: 200px; top: 600px; left: 1200px; position: absolute;"> slik produkt</div>
+        <div class="kasser" style="height: 170px; width: 200px; top: 600px; left: 1200px; position: absolute;">
+            <p style=""> Lakridshjul </p>
+            <img src="lakridshjul.jpg" alt="Lakridshjul" height="90">
+        </div>
              
              <br> <br/>
              
-        <div style="border: 5px solid #0000ff; height: 170px; width: 200px; top: 900px; left: 300px; position: absolute;"> slik produkt</div>
+        <div class="kasser" style="height: 170px; width: 200px; top: 900px; left: 300px; position: absolute;">
+            <p style=""> Colavingummi </p>
+            <img src="colavingummi.jpg" alt="Colavingummi" height="90">
+        </div>
     
-        <div style="border: 5px solid #0000ff; height: 170px; width: 200px; top: 900px; left: 600px; position: absolute;"> slik produkt</div>
+        <div class="kasser" style="height: 170px; width: 200px; top: 900px; left: 600px; position: absolute;"> 
+            <p style=""> Lakridsblomster </p>
+            <img src="lakridsblomster.jpg" alt="lakridsblomster" height="90">
+        </div>
     
-        <div style="border: 5px solid #0000ff; height: 170px; width: 200px; top: 900px; left: 900px; position: absolute;"> slik produkt</div>
+        <div class="kasser" style="height: 170px; width: 200px; top: 900px; left: 900px; position: absolute;">
+            <p style=""> Kirsebær </p>
+            <img src="kirsebearvingummi.jpg" alt="Kirsebærvingummi" height="90">
+        </div>
             
-        <div style="border: 5px solid #0000ff; height: 170px; width: 200px; top: 900px; left: 1200px; position: absolute;"> slik produkt</div>
+        <div class="kasser" style="height: 170px; width: 200px; top: 900px; left: 1200px; position: absolute;">
+            <p style=""> Chokoladekys </p>
+            <img src="Chokoladekys.jpg" alt="Chokoladekys" height="90">
+        </div>
         
 
     <footer>
