@@ -60,7 +60,7 @@ if(isset($_GET["action"]))
 		
 	</head>
 	<body>
-		<br />
+		</br>
 		<div class="container">
 			<br />
 			<br />
