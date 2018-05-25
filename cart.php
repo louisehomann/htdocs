@@ -1,7 +1,11 @@
 <?php 
 session_start();
 $connect = mysqli_connect("localhost", "root", "", "regnbueslik");
-
+// Hvis der ikke er nogen session i gang, så bliver man transporteret til login siden
+if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
+  header("location: login.php");
+  exit;
+}
 if(isset($_POST["add_to_cart"]))
 {
 	if(isset($_SESSION["shopping_cart"]))

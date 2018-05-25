@@ -1,32 +1,32 @@
 <?php
-// Include config file
+
 require_once 'config.php';
  
-// Define variables and initialize with empty values
+// Definere variabler
 $username = $password = $confirm_password = "";
 $username_err = $password_err = $confirm_password_err = "";
 $stmt ="";
  
-// Processing form data when form is submitted
+// forarbejder formen, når den bliver submittet
 if($_SERVER["REQUEST_METHOD"] == "POST"){
  
-    // Validate username
+    // Validere brugernavnet
     if(empty(trim($_POST["username"]))){
         $username_err = "Please enter a username.";
     } else{
-        // Prepare a select statement
+        // Prepare en select statement
         $sql = "SELECT id FROM persons WHERE username = ?";
         
         if($stmt = mysqli_prepare($link, $sql)){
-            // Bind variables to the prepared statement as parameters
+            // binder variabler, som parameter
             mysqli_stmt_bind_param($stmt, "s", $param_username);
             
-            // Set parameters
+            // Sæt parameters
             $param_username = trim($_POST["username"]);
             
-            // Attempt to execute the prepared statement
+            // prøver at execute statementet
             if(mysqli_stmt_execute($stmt)){
-                /* store result */
+                /* gemmer resultat */
                 mysqli_stmt_store_result($stmt);
                 
                 if(mysqli_stmt_num_rows($stmt) == 1){
@@ -40,11 +40,11 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
              mysqli_stmt_close($stmt);
         }
          
-        // Close statement
+     
        
     }
     
-    // Validate password
+    // Validere password
     if(empty(trim($_POST['password']))){
         $password_err = "Please enter a password.";     
     } elseif(strlen(trim($_POST['password'])) < 6){
@@ -53,7 +53,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         $password = trim($_POST['password']);
     }
     
-    // Validate confirm password
+    // Validere confirm password
     if(empty(trim($_POST["confirm_password"]))){
         $confirm_password_err = 'Please confirm password.';     
     } else{
@@ -63,23 +63,23 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         }
     }
     
-    // Check input errors before inserting in database
+    // checker for fejl inden det bliver oplagret i databasen
     if(empty($username_err) && empty($password_err) && empty($confirm_password_err)){
         
-        // Prepare an insert statement
+        // Prepare en insert statement
         $sql = "INSERT INTO persons (username, password) VALUES (?, ?)";
          
         if($stmt = mysqli_prepare($link, $sql)){
-            // Bind variables to the prepared statement as parameters
+            // binder variablerne til parameter
             mysqli_stmt_bind_param($stmt, "ss", $param_username, $param_password);
             
-            // Set parameters
+            // Sæt parameters
             $param_username = $username;
             $param_password = password_hash($password, PASSWORD_DEFAULT); // Creates a password hash
             
-            // Attempt to execute the prepared statement
+            // prøver at execute statementet
             if(mysqli_stmt_execute($stmt)){
-                // Redirect to login page
+                // bliver transporteret til login siden
                 header("location: login.php");
             } else{
                 echo "Something went wrong. Please try again later.";
@@ -87,11 +87,11 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
              mysqli_stmt_close($stmt);
         }
          
-        // Close statement
+    
        
     }
     
-    // Close connection
+    // slutter forbindelsen
     mysqli_close($link);
 }
 ?>
