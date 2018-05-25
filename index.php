@@ -195,7 +195,7 @@ img {vertical-align: middle;}
           
         </div>
         <div class="topnav">
-            <a class="forside" href="forside.php">Forside</a>
+            <a class="forside" href="index.php">Forside</a>
             <a class="vingummi" href="vingummi.php">Vingummi</a>
             <a class="lakrids" href="lakrids.php">Lakrids</a>
             <a class= "chokolade" href="chokolade.php">Chockolade</a>
