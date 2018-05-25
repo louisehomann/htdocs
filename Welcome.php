@@ -21,8 +21,9 @@ if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
 </head>
 <body>
     <div class="page-header">
-        <h1>Hi, <b><?php echo htmlspecialchars($_SESSION['username']); ?></b>. Welcome to our site.</h1>
+        <h1>Hi, <b><?php echo htmlspecialchars($_SESSION['username']); ?></b>. velkommen.</h1>
     </div>
     <p><a href="logout.php" class="btn btn-danger">Sign Out of Your Account</a></p>
+    <p><a href="index.php" class="btn btn-danger">Fortsæt til forsiden</a></p>
 </body>
 </html>
