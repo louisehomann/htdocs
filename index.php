@@ -7,15 +7,7 @@
   <link rel="shortcut icon" type="image/png" href="favicon.png" style="height: 5px;">
   
   <style> 
-     .logo {
-  
-          overflow: hidden;    
-     }
-          
-     .titleBar {
-          overflow: hidden; 
-          font-size: 50px;
-          }
+   
           
       body {
           margin: 0;
@@ -35,7 +27,7 @@
           padding: 14px 16px;
           text-decoration: none;
           font-size: 17px;
-          top: 50px;
+       
       }
       
            
@@ -158,7 +150,7 @@ img {vertical-align: middle;}
 <body>
  
   
-<<<<<<< HEAD
+
     <header>   
         <div class="logo" style="height: 50px; width: 300px; top: 10px; left: 15px; position: relative;">
             <img src="regnbue.png" alt="Logo, en regnbue" style="height: 50px">
@@ -178,24 +170,21 @@ img {vertical-align: middle;}
         </div>      
         
         
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 
         <div style=" height: 60px; width: 300px; left:1280px; top: -20px; position:relative; border: 1px solid #0000ff;">
             <a class="login" href="cart.php"> Login| </a>
 
         <div style=" height: 60px; width: 300px; left:80%; top: -20px; position:relative; border: 1px solid #0000ff;">
-=======
+
         <div style=" height: 60px; width: 300px; left:1280px; top: -20px; position:relative; border: 1px solid #0000ff;">
->>>>>>> parent of 4bafe0a... ..
-=======
+
+
         <div style=" height: 60px; width: 300px; left:1280px; top: -20px; position:relative; border: 1px solid #0000ff;">
->>>>>>> parent of 4bafe0a... ..
-=======
+
+
         <div>
->>>>>>> parent of 60a3d66... ..
-=======
+
+
     <header>             
             <div class="titleBar" style="border: red solid 1px; width: 100px; top: 20px; position: relative; height: 60px; left: 5px;">
                 <img src="regnbue.png" alt="Logo, en regnbue" style="height: 50px;">
@@ -217,7 +206,7 @@ img {vertical-align: middle;}
      
         
         <div style=" height: 60px; width: 300px; left:1280px; top: -20px; position:relative; border: 1px solid #0000ff;">
->>>>>>> parent of 4bafe0a... ..
+
             <a class="login" href="login.php"> Login| </a>
 
             <a> Min bruger| </a>
@@ -229,11 +218,10 @@ img {vertical-align: middle;}
             <a class="vingummi" href="vingummi">Vingummi</a>
             <a class="lakrids" href="lakrids">Lakrids</a>
             <a class= "chokolade" href="chokolade">Chockolade</a>
-<<<<<<< HEAD
-=======
+
             
      
->>>>>>> parent of 4bafe0a... ..
+
         </div>
     </header>
     
