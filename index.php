@@ -4,7 +4,7 @@
   <title>Regnebueslik</title>
   <meta charset="utf-8" />
   <meta name="description" content="Beskrivelse af side" />
-  <link rel="shortcut icon" type="image/png" href="favicon.png" style="height: 5px;">
+  <link rel="shortcut icon" type="image/png" href="favicon.png" style="height: 5%;">
   
   <style>
       
@@ -26,7 +26,6 @@
           padding: 14px 16px;
           text-decoration: none;
           font-size: 17px;
-          top: 50px;
       }
       
            
@@ -150,10 +149,10 @@ img {vertical-align: middle;}
  
   
     <header>             
-            <div class="titleBar" style="border: red solid 1px; width: 100px; top: 20px; position: relative; height: 60px; left: 5px;">
+            <div class="titleBar" style="border: red solid 1px; width: 7%; top: 20px; position: relative; height: 60px; left: 5px;">
                 <img src="regnbue.png" alt="Logo, en regnbue" style="height: 50px;">
             </div>
-        <div style="position: relative; border: #00B9FF 1px solid; width: 500px; left: 120px; top: -40px; height: 60px;">
+        <div style="position: relative; border: #00B9FF 1px solid; width: 500px; left: 8%; top: -40px; height: 60px;">
        <span style="color:#FF0000; font-size: 50px;">R</span>
             <span style="color:#FF8B00; font-size: 50px;">E</span>
             <span style="color:#E7FF00; font-size: 50px;">G</span>
@@ -169,8 +168,13 @@ img {vertical-align: middle;}
                      
      
         
+
         <div style=" height: 60px; width: 300px; left:1280px; top: -20px; position:relative; border: 1px solid #0000ff;">
             <a class="login" href="cart.php"> Login| </a>
+
+        <div style=" height: 60px; width: 300px; left:80%; top: -20px; position:relative; border: 1px solid #0000ff;">
+            <a class="login" href="login.php"> Login| </a>
+
             <a> Min bruger| </a>
             <a href="Kurv.php">  Min pose <img src="pose.png" style="height: 50px;"> </a>
             
@@ -181,7 +185,6 @@ img {vertical-align: middle;}
             <a class="lakrids" href="lakrids">Lakrids</a>
             <a class= "chokolade" href="chokolade">Chockolade</a>
             
-     
         </div>
     </header>
     
