@@ -58,6 +58,14 @@
           color: #000000;
       }
         
+      
+.kasser {
+    border: 2px solid red;
+    border-radius: 8px;
+    border: 10px outset blue;
+    text-align: center;
+ 
+    }
 /* Footer*/
 .footer {
     position: fixed;
@@ -97,7 +105,7 @@
         </div>      
         
 
-        <div style=" height: 60px; width: 300px; left:1280px; top: -20px; position:relative; border: 1px solid #0000ff;">
+        <div style=" height: 60px; width: 300px; left:1280px; top: -20px; position:relative;">
             <a class="login" href="login.php"> Login| </a>
             <a> Min bruger| </a>
             <a href="Kurv.php">  Min pose <img src="pose.png" style="height: 50px;"> </a>
@@ -112,42 +120,64 @@
         </div>
     </header>
 
-<br>
-<div style="border: 5px solid #0000ff; height: 900px; top: 460px; "  </div>
-
-<br> </br>
-
- 
-        <div style="border: 5px solid #0000ff; height: 170px; width: 200px; top: 600px; left: 300px; position: absolute;">
-            Lakridskabler
-            <br> 
-            <p style= "position:absolute; top: 10px; left:50px" </p> <img src="saltlakrids.png" alt="saltlakrids" width="100" > 
+       <div class="kasser" style=" height: 170px; width: 200px; top: 250px; left: 100px; position: absolute;">
+            <p style=""> Chokoladekarameller </p>
+         
+            <img src="chokoladekaramel.png" alt="Chokoladekarameller" height="90" > 
         </div>
     
-        <div style="border: 5px solid #0000ff; height: 170px; width: 200px; top: 600px; left: 600px; position: absolute;">
-            Lakridsblomster
-            <img src="lakridsblomster.jpg" alt="lakridsblomster" width="100">
+    <div class="kasser" style=" height: 170px; width: 200px; top: 250px; left: 400px; position: absolute;">
+            <p style=""> Chokoladekys </p>
+         
+            <img src="Chokoladekys.jpg" alt="Chokoladekys" height="90" > 
         </div>
     
-        <div style="border: 5px solid #0000ff; height: 170px; width: 200px; top: 600px; left: 900px; position: absolute;"> slik produkt</div>
+        <div class="kasser" style="height: 170px; width: 200px; top: 250px; left: 700px; position: absolute;">
+          <p style=""> Chokoladesvampe </p>
+          <img src="chokoladesvampe.jpg" alt="Chokoladesvampe" height="90">
+        </div>
+    
+        <div class="kasser" style="height: 170px; width: 200px; top: 250px; left: 1000px; position: absolute;">
+            <p style=""> chokorice </p>
+            <img src="chokorice.png" alt="Chokorice" height="90">
+        </div>
             
-        <div style="border: 5px solid #0000ff; height: 170px; width: 200px; top: 600px; left: 1200px; position: absolute;"> slik produkt</div>
+        <div class="kasser" style="height: 170px; width: 200px; top: 250px; left: 1300px; position: absolute;">
+            <p style=""> Maltesers </p>
+            <img src="maltesers.jpg" alt="Maltesers" height="90">
+        </div>
              
              <br> <br/>
              
-        <div style="border: 5px solid #0000ff; height: 170px; width: 200px; top: 900px; left: 300px; position: absolute;"> slik produkt</div>
+        <div class="kasser" style="height: 170px; width: 200px; top: 500px; left: 100px; position: absolute;">
+            <p style=""> Mintchokolader </p>
+            <img src="mintchokolader.png" alt="Mintchokolader" height="90">
+        </div>
+             
+        <div class="kasser" style="height: 170px; width: 200px; top: 500px; left: 400px; position: absolute;">
+            <p style=""> Mørk Chokolade </p>
+            <img src="mørkchokolade.jpg" alt="Mørk chokolade" height="90">
+        </div>
     
-        <div style="border: 5px solid #0000ff; height: 170px; width: 200px; top: 900px; left: 600px; position: absolute;"> slik produkt</div>
+        <div class="kasser" style="height: 170px; width: 200px; top: 500px; left: 700px; position: absolute;"> 
+            <p style=""> P-tærter </p>
+            <img src="ptærter.jpeg" alt="P-tærter" height="90">
+        </div>
     
-        <div style="border: 5px solid #0000ff; height: 170px; width: 200px; top: 900px; left: 900px; position: absolute;"> slik produkt</div>
+        <div class="kasser" style="height: 170px; width: 200px; top: 500px; left: 1000px; position: absolute;">
+            <p style=""> Skumbananer </p>
+            <img src="skumbananer.png" alt="Skumbananer" height="90">
+        </div>
             
-        <div style="border: 5px solid #0000ff; height: 170px; width: 200px; top: 900px; left: 1200px; position: absolute;"> slik produkt</div>
-        
+        <div class="kasser" style="height: 170px; width: 200px; top: 500px; left: 1300px; position: absolute;">
+            <p style=""> Små chokolader </p>
+            <img src="småchokolader.jpg" alt="Små chokolader" height="90">
+        </div>
 
     <footer>
        <div class="footer">
   <p>Footer</p>
-</div>
+       </div>
         
     </footer>
 </body>

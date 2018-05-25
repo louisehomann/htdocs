@@ -144,7 +144,7 @@ img {vertical-align: middle;}
 .kasser {
     border: 2px solid red;
     border-radius: 8px;
-    border: 10px outset orangered;
+    border: 10px outset red;
     text-align: center;
     
 }
@@ -185,7 +185,7 @@ img {vertical-align: middle;}
         </div>      
         
 
-        <div style=" height: 60px; width: 300px; left:1280px; top: -20px; position:relative; border: 1px solid #0000ff;">
+        <div style=" height: 60px; width: 300px; left:1280px; top: -20px; position:relative;">
             <a class="login" href="Productlist.php"> Login| </a>
             <a href="Welcome.php"> <?php if ($_SESSION) { echo($_SESSION["username"]);
             }else{
@@ -251,7 +251,7 @@ function showSlides() {
     }
     slides[slideIndex-1].style.display = "block";  
     dots[slideIndex-1].className += " active";
-    setTimeout(showSlides, 3000); // Change image every 2 seconds
+    setTimeout(showSlides, 3000); // Skifter billede hver tredje sekund
 }
 </script>
 

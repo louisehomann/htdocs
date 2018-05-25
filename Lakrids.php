@@ -57,6 +57,15 @@
           background-color: #3333ff;
           color: #000000;
       }
+      
+    
+.kasser {
+    border: 2px solid red;
+    border-radius: 8px;
+    border: 10px outset yellowgreen;
+    text-align: center;
+    
+    }
         
 /* Footer*/
 .footer {
@@ -97,7 +106,7 @@
         </div>      
         
 
-        <div style=" height: 60px; width: 300px; left:1280px; top: -20px; position:relative; border: 1px solid #0000ff;">
+        <div style=" height: 60px; width: 300px; left:1280px; top: -20px; position:relative;">
             <a class="login" href="login.php"> Login| </a>
             <a> Min bruger| </a>
             <a href="Kurv.php">  Min pose <img src="pose.png" style="height: 50px;"> </a>
@@ -111,43 +120,66 @@
 
         </div>
     </header>
-
-<br>
-<div style="border: 5px solid #0000ff; height: 900px; top: 460px; "  </div>
-
-<br> </br>
-
  
-        <div style="border: 5px solid #0000ff; height: 170px; width: 200px; top: 600px; left: 300px; position: absolute;">
-            Lakridskabler
-            <br> 
-            <p style= "position:absolute; top: 10px; left:50px" </p> <img src="saltlakrids.png" alt="saltlakrids" width="100" > 
+        <div class="kasser" style=" height: 170px; width: 200px; top: 250px; left: 100px; position: absolute;">
+            <p style=""> Lakridskabler </p>
+         
+             <img src="saltlakrids.png" alt="Lakridskabler" height="90" > 
         </div>
     
-        <div style="border: 5px solid #0000ff; height: 170px; width: 200px; top: 600px; left: 600px; position: absolute;">
-            Lakridsblomster
-            <img src="lakridsblomster.jpg" alt="lakridsblomster" width="100">
+    <div class="kasser" style=" height: 170px; width: 200px; top: 250px; left: 400px; position: absolute;">
+            <p style=""> Lakridspiber </p>
+         
+            <img src="lakridspbie.jpg" alt="Lakridspibe" height="90" > 
         </div>
     
-        <div style="border: 5px solid #0000ff; height: 170px; width: 200px; top: 600px; left: 900px; position: absolute;"> slik produkt</div>
+        <div class="kasser" style="height: 170px; width: 200px; top: 250px; left: 700px; position: absolute;">
+          <p style=""> Spejderhagl </p>
+          <img src="spejderhagl.jpg" alt="Sejderhagl" height="90">
+        </div>
+    
+        <div class="kasser" style="height: 170px; width: 200px; top: 250px; left: 1000px; position: absolute;">
+            <p style=""> Engelsk lakrid </p>
+            <img src="engelsklakrids.jpg" alt="Engelsk lakrids" height="90">
+        </div>
             
-        <div style="border: 5px solid #0000ff; height: 170px; width: 200px; top: 600px; left: 1200px; position: absolute;"> slik produkt</div>
+        <div class="kasser" style="height: 170px; width: 200px; top: 250px; left: 1300px; position: absolute;">
+            <p style=""> Lakridshjul </p>
+            <img src="lakridshjul.jpg" alt="Lakridshjul" height="90">
+        </div>
              
              <br> <br/>
              
-        <div style="border: 5px solid #0000ff; height: 170px; width: 200px; top: 900px; left: 300px; position: absolute;"> slik produkt</div>
+        <div class="kasser" style="height: 170px; width: 200px; top: 500px; left: 100px; position: absolute;">
+            <p style=""> Lakridsbåde </p>
+            <img src="lakridsbaade.jpeg" alt="Lakridsbåde" height="90">
+        </div>
+             
+        <div class="kasser" style="height: 170px; width: 200px; top: 500px; left: 400px; position: absolute;">
+            <p style=""> Lakridsdyr </p>
+            <img src="lakridsdyr.png" alt="Lakridsdyr" height="90">
+        </div>
     
-        <div style="border: 5px solid #0000ff; height: 170px; width: 200px; top: 900px; left: 600px; position: absolute;"> slik produkt</div>
+        <div class="kasser" style="height: 170px; width: 200px; top: 500px; left: 700px; position: absolute;"> 
+            <p style=""> Lakridsblomster </p>
+            <img src="lakridsblomster.jpg" alt="lakridsblomster" height="90">
+        </div>
     
-        <div style="border: 5px solid #0000ff; height: 170px; width: 200px; top: 900px; left: 900px; position: absolute;"> slik produkt</div>
+        <div class="kasser" style="height: 170px; width: 200px; top: 500px; left: 1000px; position: absolute;">
+            <p style=""> Lakridssmieley </p>
+            <img src="lakridssmiley.jpeg" alt="Lakridssmiley" height="90">
+        </div>
             
-        <div style="border: 5px solid #0000ff; height: 170px; width: 200px; top: 900px; left: 1200px; position: absolute;"> slik produkt</div>
+        <div class="kasser" style="height: 170px; width: 200px; top: 500px; left: 1300px; position: absolute;">
+            <p style=""> Lakridssutter </p>
+            <img src="lakridssutter.jpg" alt="Lakridssutter" height="90">
+        </div>
         
 
     <footer>
        <div class="footer">
   <p>Footer</p>
-</div>
+       </div>
         
     </footer>
 </body>

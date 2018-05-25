@@ -57,7 +57,16 @@
           background-color: #3333ff;
           color: #000000;
       }
-        
+  
+
+.kasser {
+    border: 2px solid red;
+    border-radius: 8px;
+    border: 10px outset orange;
+    text-align: center;
+    
+    }
+    
 /* Footer*/
 .footer {
     position: fixed;
@@ -97,7 +106,7 @@
         </div>      
         
 
-        <div style=" height: 60px; width: 300px; left:1280px; top: -20px; position:relative; border: 1px solid #0000ff;">
+        <div style=" height: 60px; width: 300px; left:1280px; top: -20px; position:relative;">
             <a class="login" href="login.php"> Login| </a>
             <a> Min bruger| </a>
             <a href="Kurv.php">  Min pose <img src="pose.png" style="height: 50px;"> </a>
@@ -111,43 +120,67 @@
 
         </div>
     </header>
-
-<br>
-<div style="border: 5px solid #0000ff; height: 900px; top: 460px; "  </div>
-
-<br> </br>
-
  
-        <div style="border: 5px solid #0000ff; height: 170px; width: 200px; top: 600px; left: 300px; position: absolute;">
-            Lakridskabler
-            <br> 
-            <p style= "position:absolute; top: 10px; left:50px" </p> <img src="saltlakrids.png" alt="saltlakrids" width="100" > 
+  
+       <div class="kasser" style=" height: 170px; width: 200px; top: 250px; left: 100px; position: absolute;">
+            <p style=""> Colavingummi </p>
+         
+            <img src="colavingummi.jpg" alt="Colavingummi" height="90" > 
         </div>
     
-        <div style="border: 5px solid #0000ff; height: 170px; width: 200px; top: 600px; left: 600px; position: absolute;">
-            Lakridsblomster
-            <img src="lakridsblomster.jpg" alt="lakridsblomster" width="100">
+    <div class="kasser" style=" height: 170px; width: 200px; top: 250px; left: 400px; position: absolute;">
+            <p style=""> Engelsk vingummi </p>
+         
+            <img src="engelskvingummi.jpg" alt="Engeslk vingummi" height="90" > 
         </div>
     
-        <div style="border: 5px solid #0000ff; height: 170px; width: 200px; top: 600px; left: 900px; position: absolute;"> slik produkt</div>
+        <div class="kasser" style="height: 170px; width: 200px; top: 250px; left: 700px; position: absolute;">
+          <p style=""> Ferskner </p>
+          <img src="ferskner.jpg" alt="Ferskner" height="90">
+        </div>
+    
+        <div class="kasser" style="height: 170px; width: 200px; top: 250px; left: 1000px; position: absolute;">
+            <p style=""> Kirsebær </p>
+            <img src="kirsebearvingummi.jpg" alt="Kirsebær" height="90">
+        </div>
             
-        <div style="border: 5px solid #0000ff; height: 170px; width: 200px; top: 600px; left: 1200px; position: absolute;"> slik produkt</div>
+        <div class="kasser" style="height: 170px; width: 200px; top: 250px; left: 1300px; position: absolute;">
+            <p style=""> Sure larver </p>
+            <img src="surelarver.png" alt="Sure larver" height="90">
+        </div>
              
              <br> <br/>
              
-        <div style="border: 5px solid #0000ff; height: 170px; width: 200px; top: 900px; left: 300px; position: absolute;"> slik produkt</div>
+        <div class="kasser" style="height: 170px; width: 200px; top: 500px; left: 100px; position: absolute;">
+            <p style=""> Vingummibamser </p>
+            <img src="vingummibamser.png" alt="Vingummibamser" height="90">
+        </div>
+             
+        <div class="kasser" style="height: 170px; width: 200px; top: 500px; left: 400px; position: absolute;">
+            <p style=""> Vingummifrugt </p>
+            <img src="vingummifrugt.jpg" alt="Vingummifrugt" height="90">
+        </div>
     
-        <div style="border: 5px solid #0000ff; height: 170px; width: 200px; top: 900px; left: 600px; position: absolute;"> slik produkt</div>
+        <div class="kasser" style="height: 170px; width: 200px; top: 500px; left: 700px; position: absolute;"> 
+            <p style=""> Vingummijordbær </p>
+            <img src="vingummijordbær.png" alt="Vingummijordbær" height="90">
+        </div>
     
-        <div style="border: 5px solid #0000ff; height: 170px; width: 200px; top: 900px; left: 900px; position: absolute;"> slik produkt</div>
+        <div class="kasser" style="height: 170px; width: 200px; top: 500px; left: 1000px; position: absolute;">
+            <p style=""> Vingummisutter </p>
+            <img src="vingummisutter.jpg" alt="Vingummisutter" height="90">
+        </div>
             
-        <div style="border: 5px solid #0000ff; height: 170px; width: 200px; top: 900px; left: 1200px; position: absolute;"> slik produkt</div>
+        <div class="kasser" style="height: 170px; width: 200px; top: 500px; left: 1300px; position: absolute;">
+            <p style=""> Vingummikræs </p>
+            <img src="vingummiting.png" alt="vingummmikræs" height="90">
+        </div>
         
 
     <footer>
        <div class="footer">
   <p>Footer</p>
-</div>
+       </div>
         
     </footer>
 </body>
