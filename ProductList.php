@@ -15,65 +15,65 @@ if (mysqli_query($mysqli, $sql)) {
 
 
 $sql = "INSERT INTO tbl_product (id, name, price) VALUES
-('1', 'Lakridspipe', 100.00);";
+('1', 'Lakridspipe', 2);";
 $sql .= "INSERT INTO tbl_product (id, name, price) VALUES
-('2', 'Lakridsblomster', 299.00);";
+('2', 'Lakridsblomster', 2);";
 $sql .= "INSERT INTO tbl_product (id, name, price) VALUES
-('3', 'Lakridssutter', 125.00);";
+('3', 'Lakridssutter', 2);";
 $sql .= "INSERT INTO tbl_product (id, name, price) VALUES
-('4', 'Lakridshjul', 100.00);";
+('4', 'Lakridshjul', 2);";
 $sql .= "INSERT INTO tbl_product (id, name, price) VALUES
-('5', 'Lakridssmiley', 100.00);";
+('5', 'Lakridssmiley', 2);";
 $sql .= "INSERT INTO tbl_product (id, name, price) VALUES
-('6', 'Saltlakrids', 100.00);";
+('6', 'Saltlakrids', 2);";
 $sql .= "INSERT INTO tbl_product (id, name, price) VALUES
-('7', 'Lakridsbaade',  100.00);";
+('7', 'Lakridsbaade',  2);";
 $sql .= "INSERT INTO tbl_product (id, name, price) VALUES
-('8', 'Lakridsdyr', 100.00);";
+('8', 'Lakridsdyr', 2);";
 $sql .= "INSERT INTO tbl_product (id, name, price) VALUES
-('9', 'Spejderhagl',  100.00);";
+('9', 'Spejderhagl',  2);";
 $sql .= "INSERT INTO tbl_product (id, name, price) VALUES
-('10', 'Chokoladekaramel', 100.00);";
+('10', 'Chokoladekaramel', 2);";
 $sql .= "INSERT INTO tbl_product (id, name, price) VALUES
-('11', 'Chokoladesvampe', 100.00);";
+('11', 'Chokoladesvampe', 2);";
 $sql .= "INSERT INTO tbl_product (id, name, price) VALUES
-('12', 'Chokorice', 100.00);";
+('12', 'Chokorice', 2);";
 $sql .= "INSERT INTO tbl_product (id, name, price) VALUES
-('13', 'Maltesers', 100.00);";
+('13', 'Maltesers', 2);";
 $sql .= "INSERT INTO tbl_product (id, name, price) VALUES
-('14', 'Mintchokolader', 100.00);";
+('14', 'Mintchokolader', 2);";
 $sql .= "INSERT INTO tbl_product (id, name, price) VALUES
-('15', 'P-tærter',  100.00);";
+('15', 'P-tærter',  2);";
 $sql .= "INSERT INTO tbl_product (id, name, price) VALUES
-('16', 'Skumbananer',  100.00);";
+('16', 'Skumbananer', 2);";
 $sql .= "INSERT INTO tbl_product (id, name, price) VALUES
-('17', 'Småchokolader',  100.00);";
+('17', 'Småchokolader', 2);";
 $sql .= "INSERT INTO tbl_product (id, name,  price) VALUES
-('18', 'Surelarver',  100.00);";
+('18', 'Surelarver', 2);";
 $sql .= "INSERT INTO tbl_product (id, name, price) VALUES
-('19', 'Vingummibamser',  100.00);";
+('19', 'Vingummibamser', 2);";
 $sql .= "INSERT INTO tbl_product (id, name,  price) VALUES
-('20', 'Vingummefrugt',  100.00);";
+('20', 'Vingummefrugt',  2);";
 $sql .= "INSERT INTO tbl_product (id, name, price) VALUES
-('21', 'Vingummijordbær',  100.00);";
+('21', 'Vingummijordbær', 2);";
 $sql .= "INSERT INTO tbl_product (id, name,  price) VALUES
-('22', 'Vingummesutter',  100.00);";
+('22', 'Vingummesutter',  2);";
 $sql .= "INSERT INTO tbl_product (id, name,  price) VALUES
-('23', 'Vingummiting',  100.00);";
+('23', 'Vingummiting',  2);";
 $sql .= "INSERT INTO tbl_product (id, name, price) VALUES
-('24', 'Colavingummi',  100.00);";
+('24', 'Colavingummi', 2);";
 $sql .= "INSERT INTO tbl_product (id, name,  price) VALUES
-('25', 'Engelskvingummi',  100.00);";
+('25', 'Engelskvingummi',  2);";
 $sql .= "INSERT INTO tbl_product (id, name,  price) VALUES
-('26', 'Favicon',  100.00);";
+('26', 'Favicon',  2);";
 $sql .= "INSERT INTO tbl_product (id, name, price) VALUES
-('27', 'Ferskner', 100.00);";
+('27', 'Ferskner', 2);";
 $sql .= "INSERT INTO tbl_product (id, name, price) VALUES
-('28', 'Kirsebærvingummi',  100.00);";
+('28', 'Kirsebærvingummi',  2);";
 $sql .= "INSERT INTO tbl_product (id, name, price) VALUES
-('29', 'Mørkchokolade',  100.00);";
+('29', 'Mørkchokolade',  2);";
 $sql .= "INSERT INTO tbl_product (id, name, price) VALUES
-('30', 'Engelsklakrids',  100.00)";
+('30', 'Engelsklakrids',  2)";
         
         
         

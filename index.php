@@ -185,8 +185,13 @@ img {vertical-align: middle;}
         </div>      
         
 
+<<<<<<< HEAD
         <div style=" height: 60px; width: 300px; left:1280px; top: -20px; position:relative;">
             <a class="login" href="Productlist.php"> Login| </a>
+=======
+        <div style=" height: 60px; width: 300px; left:1280px; top: -20px; position:relative; border: 1px solid #0000ff;">
+            <a class="login" href="login.php"> Login| </a>
+>>>>>>> d9f59dc3783b8ed10fa7ca1d9d1a641b0975e56e
             <a href="Welcome.php"> <?php if ($_SESSION) { echo($_SESSION["username"]);
             }else{
                 echo "min bruger";
@@ -195,7 +200,7 @@ img {vertical-align: middle;}
           
         </div>
         <div class="topnav">
-            <a class="forside" href="forside.php">Forside</a>
+            <a class="forside" href="index.php">Forside</a>
             <a class="vingummi" href="vingummi.php">Vingummi</a>
             <a class="lakrids" href="lakrids.php">Lakrids</a>
             <a class= "chokolade" href="chokolade.php">Chockolade</a>

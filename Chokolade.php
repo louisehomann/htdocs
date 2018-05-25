@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -107,8 +110,11 @@
 
         <div style=" height: 60px; width: 300px; left:1280px; top: -20px; position:relative;">
             <a class="login" href="login.php"> Login| </a>
-            <a> Min bruger| </a>
-            <a href="Kurv.php">  Min pose <img src="pose.png" style="height: 50px;"> </a>
+            <a href="Welcome.php"> <?php if ($_SESSION) { echo($_SESSION["username"]);
+            }else{
+                echo "min bruger";
+                }?> </a>
+            <a href="cart.php">  Min pose <img src="pose.png" style="height: 50px;"> </a>
           
         </div>
         <div class="topnav">
